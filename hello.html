@@ -14,7 +14,12 @@
             position: absolute;
             top: 0;
             left: 0;
-            z-index: 1;
+            z-index: 1000;
+            width: 100%;
+            height:100%;
+            text-align: center;
+            font-size: 5rem;
+            padding-top:10rem;
         }
         .snow-container {
             position: absolute;
@@ -100,6 +105,9 @@
     </style>
 </head>
 <body>
+<div class="content">
+    <div>本站源码: <a href="https://github.com/c0de-me/c0de">github</a></div>
+</div>
 <div class="snow-container">
     <div class="snow foreground"></div>
     <div class="snow foreground layered"></div>
@@ -107,9 +115,7 @@
     <div class="snow middleground layered"></div>
     <div class="snow background"></div>
     <div class="snow background layered"></div>
-    <div class="content">
-        欢迎访问 c0de.me
-    </div>
+
 </div>
 </body>
 </html>
