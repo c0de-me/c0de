@@ -1,0 +1,9 @@
+[package]
+name = "c0de"
+version = "0.1.0"
+authors = ["刘荣飞 <i@c0de.me>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
