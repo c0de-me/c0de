@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T10:57:13.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="6cOzvMsVBQ_K_Hops88G" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-09T11:00:03.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="lWfv7Hg-rEq8iOUpqi4_" version="24.2.3" type="github">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
     <mxGraphModel dx="1232" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -44,12 +44,6 @@
         </mxCell>
         <mxCell id="m24mzd3tNYPSXTuyIKUD-18" value="通过proto包定义彼此之间共用的数据结构，并提供相应的封包解包方法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="650" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="m24mzd3tNYPSXTuyIKUD-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="770" as="sourcePoint" />
-            <mxPoint x="960" y="770" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="m24mzd3tNYPSXTuyIKUD-22" value="这一层负责把收到的IP包封装到自定义的结构体中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="710" width="290" height="30" as="geometry" />
@@ -104,6 +98,15 @@
         </mxCell>
         <mxCell id="m24mzd3tNYPSXTuyIKUD-39" value="可选层&lt;div&gt;建立连接的时候约定&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="500" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m24mzd3tNYPSXTuyIKUD-41" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="808" as="sourcePoint" />
+            <mxPoint x="960" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m24mzd3tNYPSXTuyIKUD-42" value="该模块负责电脑之间的数据传输，和业务无关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="768" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
