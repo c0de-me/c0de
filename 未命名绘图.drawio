@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T09:35:39.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="UlZhSGPH3LZuqAek3TVl" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-09T09:39:32.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ORuvH9Yuk9SvFMofItMj" version="24.2.3" type="github">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
     <mxGraphModel dx="1232" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -50,6 +50,15 @@
             <mxPoint y="440" as="sourcePoint" />
             <mxPoint x="960" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="m24mzd3tNYPSXTuyIKUD-22" value="这一层负责把收到的IP包封装到自定义的结构体中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m24mzd3tNYPSXTuyIKUD-23" value="这一层负责socket连接，重连等操作，外提供收发接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m24mzd3tNYPSXTuyIKUD-24" value="如果提供给其他语言使用，直接包装成dll&lt;div&gt;对外提供初始化配置信息，以及收发接口，要考虑跨平台支持&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="113" width="350" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
