@@ -17,3 +17,29 @@
 1. 指定一个 config.json 文件，用于指定网站监听端口，附件保存目录，有哪些栏目。
 1. 实现客户端发布文章。
 
+```mermaid
+graph TD
+    subgraph 区域A
+    A[管理节点A]
+    NA1[VPN节点A1]
+    NA2[VPN节点A2]
+    end
+    subgraph 区域B
+    B[管理节点B]
+    NB1[VPN节点B1]
+    NB2[VPN节点B2]
+    end
+    subgraph 区域C
+    C[管理节点C]
+    NC1[VPN节点C1]
+    NC2[VPN节点C2]
+    end
+    A <--> B
+    B <--> C
+    A <--> C
+    A --> NA1 & NA2
+    B --> NB1 & NB2
+    C --> NC1 & NC2
+    Client1[客户端1] --> NA1 & NB1 & NC1
+    Client2[客户端2] --> NA2 & NB2 & NC2
+```
